@@ -32,43 +32,39 @@ const key = e.target.textcontent;
     // 내가 클릭한 드럼의 소리를 냄
 
    drumPlay(key);    
-    }); }
-    
-    document.addEventListener("keydown", function (e) {
+  document.addEventListener("keydown", function (e) {
         const key = e.key;
         drumPlay(key); 
-}
     
-    if (key === "w") {
-      const audio = new Audio("sounds/tom-1.mp3");
-      audio.play();
-    }
-    if (key === "a") {
-      const audio = new Audio("sounds/tom-2.mp3");
-      audio.play();
-    }
-    if (key === "s") {
-      const audio = new Audio("sounds/tom-3.mp3");
-      audio.play();
-    }
-    if (key === "d") {
-      const audio = new Audio("sounds/tom-4.mp3");
-      audio.play();
-    }
-    if (key === "j") {
-      const audio = new Audio("sounds/snare.mp3");
-      audio.play();
-    }
-    if (key === "k") {
-      const audio = new Audio("sounds/crash.mp3");
-      audio.play();
-    }
-    if (key === "l") {
-      const audio = new Audio("sounds/kick-bass.mp3");
-      audio.play();
-    }
+    // if (key === "w") {
+    //   const audio = new Audio("sounds/tom-1.mp3");
+    //   audio.play();
+    // }
+    // if (key === "a") {
+    //   const audio = new Audio("sounds/tom-2.mp3");
+    //   audio.play();
+    // }
+    // if (key === "s") {
+    //   const audio = new Audio("sounds/tom-3.mp3");
+    //   audio.play();
+    // }
+    // if (key === "d") {
+    //   const audio = new Audio("sounds/tom-4.mp3");
+    //   audio.play();
+    // }
+    // if (key === "j") {
+    //   const audio = new Audio("sounds/snare.mp3");
+    //   audio.play();
+    // }
+    // if (key === "k") {
+    //   const audio = new Audio("sounds/crash.mp3");
+    //   audio.play();
+    // }
+    // if (key === "l") {
+    //   const audio = new Audio("sounds/kick-bass.mp3");
+    //   audio.play();
+    // }
 
     // const audio = new Audio("sounds/tom-1.mp3");
     // audio.play();
-
 
